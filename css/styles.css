@@ -871,15 +871,16 @@ select {
     transform: scaleX(0.9);
   }
 }
+
 @font-face {
   font-family: remixicon;
-  src: url(/assets/remixicon-64bb3a0f.eot?t=1590207869815);
-  src: url(/assets/remixicon-64bb3a0f.eot?t=1590207869815#iefix)
+  src: url(../assets/remixicon-64bb3a0f.eot?t=1590207869815);
+  src: url(../assets/remixicon-64bb3a0f.eot?t=1590207869815#iefix)
       format("embedded-opentype"),
-    url(/assets/remixicon-e61f0d10.woff2?t=1590207869815) format("woff2"),
-    url(/assets/remixicon-c2dacfbc.woff?t=1590207869815) format("woff"),
-    url(/assets/remixicon-0ac8bc3c.ttf?t=1590207869815) format("truetype"),
-    url(/assets/remixicon-a10268fe.svg?t=1590207869815#remixicon) format("svg");
+    url(../assets/remixicon-e61f0d10.woff2?t=1590207869815) format("woff2"),
+    url(../assets/remixicon-c2dacfbc.woff?t=1590207869815) format("woff"),
+    url(../assets/remixicon-0ac8bc3c.ttf?t=1590207869815) format("truetype"),
+    url(../assets/remixicon-a10268fe.svg?t=1590207869815#remixicon) format("svg");
   font-display: swap;
 }
 [class^="ri-"],
@@ -889,6 +890,7 @@ select {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .ri-lg {
   font-size: 1.3333em;
   line-height: 0.75em;

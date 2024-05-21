@@ -35,3 +35,7 @@ countDown();
 mobileMenu.addEventListener("click", () => {
   navigation.classList.toggle("active__menu");
 });
+
+navigation.addEventListener("click", () => {
+  navigation.classList.remove("active__menu");
+});
